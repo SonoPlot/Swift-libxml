@@ -1,3 +1,14 @@
+# Swift Wrappers for libxml2
+
+This repository holds a sample project that shows how to integrate libxml2, a C toolkit, with Swift. I wrote two wrapper classes to make integrating libxml2 into your project easier:
+
+- LibXMLDoc
+- LibXMLNode
+
+There is an example project that contains these two wrapper classes and a profiling project that shows how much faster libxml2 is than using NSXMLParser.
+
+For a more detailed explanation of this library, [please refer back to my blog post about it](http://redqueencoder.com/wrapping-libxml2-for-swift/).
+
 # Hooking Up libxml2 To Your Xcode Project
 
 libXML is included on your machine, but it isn’t included by default in Xcode. It will need to be important and linked to your project for Xcode to be able to see it.
