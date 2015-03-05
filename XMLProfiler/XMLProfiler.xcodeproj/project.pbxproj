@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790288EF1A78117300BD9CB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790288EE1A78117300BD9CB9 /* Images.xcassets */; };
+		790289051A78120E00BD9CB9 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 790288DE1A76E49800BD9CB9 /* libxml2.2.dylib */; };
+		790289061A78120E00BD9CB9 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 790288DB1A76DD0A00BD9CB9 /* libxml2.dylib */; };
+		790289071A78121900BD9CB9 /* VeryLargeSpotGrid.pattern in Resources */ = {isa = PBXBuildFile; fileRef = 79D864271A72C3B6005B787F /* VeryLargeSpotGrid.pattern */; };
+		790289081A78124800BD9CB9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793BC7931A72BBC90031A343 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		790288DB1A76DD0A00BD9CB9 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		790288DE1A76E49800BD9CB9 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		790288E11A76F02000BD9CB9 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		790288E81A78117300BD9CB9 /* XMLProfiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLProfiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		790288EB1A78117300BD9CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790288EE1A78117300BD9CB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		790288F11A78117300BD9CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		793BC7931A72BBC90031A343 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		79D864271A72C3B6005B787F /* VeryLargeSpotGrid.pattern */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VeryLargeSpotGrid.pattern; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790288E51A78117300BD9CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790289051A78120E00BD9CB9 /* libxml2.2.dylib in Frameworks */,
+				790289061A78120E00BD9CB9 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790288E91A78117300BD9CB9 /* XMLProfiler2 */ = {
+			isa = PBXGroup;
+			children = (
+				790288EE1A78117300BD9CB9 /* Images.xcassets */,
+				790288F01A78117300BD9CB9 /* MainMenu.xib */,
+				790288EA1A78117300BD9CB9 /* Supporting Files */,
+			);
+			path = XMLProfiler2;
+			sourceTree = "<group>";
+		};
+		790288EA1A78117300BD9CB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				790288EB1A78117300BD9CB9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		793BC7871A72BBC90031A343 = {
+			isa = PBXGroup;
+			children = (
+				790288DE1A76E49800BD9CB9 /* libxml2.2.dylib */,
+				790288DB1A76DD0A00BD9CB9 /* libxml2.dylib */,
+				793BC7921A72BBC90031A343 /* XMLProfiler */,
+				790288E91A78117300BD9CB9 /* XMLProfiler2 */,
+				793BC7911A72BBC90031A343 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		793BC7911A72BBC90031A343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790288E81A78117300BD9CB9 /* XMLProfiler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		793BC7921A72BBC90031A343 /* XMLProfiler */ = {
+			isa = PBXGroup;
+			children = (
+				790288E11A76F02000BD9CB9 /* Bridging-Header.h */,
+				793BC7931A72BBC90031A343 /* main.swift */,
+				79D864271A72C3B6005B787F /* VeryLargeSpotGrid.pattern */,
+			);
+			path = XMLProfiler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790288E71A78117300BD9CB9 /* XMLProfiler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790288FF1A78117300BD9CB9 /* Build configuration list for PBXNativeTarget "XMLProfiler" */;
+			buildPhases = (
+				790288E41A78117300BD9CB9 /* Sources */,
+				790288E51A78117300BD9CB9 /* Frameworks */,
+				790288E61A78117300BD9CB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLProfiler;
+			productName = XMLProfiler2;
+			productReference = 790288E81A78117300BD9CB9 /* XMLProfiler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		793BC7881A72BBC90031A343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Red Queen Coder, LLC";
+				TargetAttributes = {
+					790288E71A78117300BD9CB9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 793BC78B1A72BBC90031A343 /* Build configuration list for PBXProject "XMLProfiler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 793BC7871A72BBC90031A343;
+			productRefGroup = 793BC7911A72BBC90031A343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790288E71A78117300BD9CB9 /* XMLProfiler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790288E61A78117300BD9CB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790288EF1A78117300BD9CB9 /* Images.xcassets in Resources */,
+				790289071A78121900BD9CB9 /* VeryLargeSpotGrid.pattern in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790288E41A78117300BD9CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790289081A78124800BD9CB9 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		790288F01A78117300BD9CB9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790288F11A78117300BD9CB9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		790289001A78117300BD9CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XMLProfiler2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		790289011A78117300BD9CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XMLProfiler2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		793BC7951A72BBC90031A343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "XMLProfiler/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		793BC7961A72BBC90031A343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "XMLProfiler/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790288FF1A78117300BD9CB9 /* Build configuration list for PBXNativeTarget "XMLProfiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790289001A78117300BD9CB9 /* Debug */,
+				790289011A78117300BD9CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793BC78B1A72BBC90031A343 /* Build configuration list for PBXProject "XMLProfiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793BC7951A72BBC90031A343 /* Debug */,
+				793BC7961A72BBC90031A343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 793BC7881A72BBC90031A343 /* Project object */;
+}
