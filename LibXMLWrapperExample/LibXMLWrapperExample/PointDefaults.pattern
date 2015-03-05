@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<pattern>
+    <xmultiplier>1.00</xmultiplier>
+    <ymultiplier>1.00</ymultiplier>
+    <featurewidth>50.00</featurewidth>
+    <gridspacing>100</gridspacing>
+    <continuous></continuous>
+    <canvaswidth>1000</canvaswidth>
+    <canvasheight>1000</canvasheight>
+    <solutionlayer>
+        <solutionname>Solution 1</solutionname>
+        <solutionlayercolorred>0.40</solutionlayercolorred>
+        <solutionlayercolorgreen>0.00</solutionlayercolorgreen>
+        <solutionlayercolorblue>0.00</solutionlayercolorblue>
+    </solutionlayer>
+    <point>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+        <solution>Solution 1</solution>
+        <duration>0</duration>
+    </point>
+    <point>
+        <x>1000</x>
+        <y>0</y>
+        <z>0</z>
+        <solution>Solution 1</solution>
+        <duration>0</duration>
+    </point>
+    <point>
+        <x>1000</x>
+        <y>1000</y>
+        <z>0</z>
+        <solution>Solution 1</solution>
+        <duration>0</duration>
+    </point>
+    <point>
+        <x>0</x>
+        <y>1000</y>
+        <z>0</z>
+        <solution>Solution 1</solution>
+        <duration>0</duration>
+    </point>
+</pattern>
